@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>COMPASS - JWST</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">COMPASS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="team.html">Team</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="timeline.html">Timeline</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="planets.html">Planets</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="news.html">News</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="collab.html">Collaboration Docs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/banner_home_b.jpeg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>The Team</h1>
+                            <span class="subheading"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row">
+                    <!-- Control buttons -->
+                    <div id="myBtnContainer">
+                      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                      <button class="btn" onclick="filterSelection('observer')">Data Reduction</button>
+                      <button class="btn" onclick="filterSelection('theory')">Theory</button>
+                      <button class="btn" onclick="filterSelection('postdoc')">Postdocs</button>
+                      <button class="btn" onclick="filterSelection('student')">Graduate Students</button>
+                      <button class="btn" onclick="filterSelection('lead')">Leadership</button>
+                    </div>
+                </div>
+                  <div class="row" id="myItems">
+    <div class="row col-sm-12 mb-3">
+
+                <!--div>Begin Team Adams<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer student" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Jea Adams</h4>
+                                    <p class="card-text">Graduate Student | Harvard Center for Astrophysics </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Jea Adams is...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Alam<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer postdocs" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Munazza Alam</h4>
+                                    <p class="card-text">Postdoc | Carnegie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Munazza Alam is...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Alderson<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer student" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/Alderson.jpeg" alt="card image"></p>
+                                    <h4 class="card-title">Lili Alderson</h4>
+                                    <p class="card-text">Graduate Student | University of Bristol</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Lili Alderson is...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team BatalhaNM<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/BatalhaNM.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Natalie Batalha</h4>
+                                    <p class="card-text">Professor | University of California Santa Cruz</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Natalie Batalha detects and characterizes planets orbiting other stars (exoplanets) with the goal of understanding where are the most likely cradles of life. She also studies exoplanets as a population to understand their diversity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--div>Begin Team BatalhaNE<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory lead" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/BatalhaNE.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Natasha Batalha</h4>
+                                    <p class="card-text">Research Scientist | NASA Ames Research Center</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Natasha Batalha studies planetary atmospheres at the nexus of observation and theory. She has expertise in leveraging and developing open science theoretical models (climate, spectroscopic, chemistry, & cloud) to determine atmospheric properties from spectroscopic observations of exoplanets and Brown Dwarfs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      
+
+      
+                <!--div>Begin Team Gao<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Peter Gao</h4>
+                                    <p class="card-text">Staff Scientist | Carnegie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Peter Gao is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Morales<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Mercedes Lopez-Morales</h4>
+                                    <p class="card-text">SAO Astrophysicist | Harvard Center for Astrophysics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Mercedes Lopez-Morales is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Marley<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Mark Marley</h4>
+                                    <p class="card-text">Director of Lunar & Planetary Laboratory | University of Arizona</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Mark Marley is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Moran<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory postdoc" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/Moran.png" alt="card image"></p>
+                                    <h4 class="card-title">Sarah Moran</h4>
+                                    <p class="card-text">Postdoc | University of Arizona</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Sarah Moran is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Ceballos<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer student" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Kevin Ortiz Ceballos</h4>
+                                    <p class="card-text">Graduate Student | Harvard Center for Astrophysics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Kevin Ortiz Ceballos is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Scarsdale<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory student" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Nicholas Scarsdale</h4>
+                                    <p class="card-text">Graduate Student | University of California Santa Cruz</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Nicholas Scarsdale is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Shahar<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Anat Shahar</h4>
+                                    <p class="card-text">Staff Scientist | Carnegie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Anat Shahar is ... </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      
+                <!--div>Begin Team Teske<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer lead" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/Teske.jpeg" alt="card image"></p>
+                                    <h4 class="card-title">Johanna Teske</h4>
+                                    <p class="card-text">Staff Scientist | Carnegie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Johanna Teske is interested in quantifying the diversity of exoplanet compositions and understanding the origins of that diversity. She pursues these goals by combining observations of exoplanet masses, radii, atmospheres, and host stars, often conducted with high resolution spectrometers mounted on large ground-based telescopes. She loves observing and running. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <!--div>Begin Team Wakeford<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/Wakeford.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Hannah Wakeford</h4>
+                                    <p class="card-text">Senior Lecturer | University of Bristol</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Hannah is a senior lecturer in Astrophysics in the School of Physics at the University of Bristol, UK. Hannah leads a group investigating the atmospheres of transiting exoplanets using space-based telescopes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Wallack<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv observer postdoc" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/avatar.png" alt="card image"></p>
+                                    <h4 class="card-title">Nicole Wallack</h4>
+                                    <p class="card-text">Postdoc | Carnegie</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Nicole Wallack is a postdoc at...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div>Begin Team Wolfgang<-->
+                <div class="image-flip col-sm-3 fs-6  filterDiv theory" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class="img-fluid" src="assets/img/Team/Wolfgang.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Angie Wolfgang</h4>
+                                    <p class="card-text">Data Scientist | SiteZeus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <p class="card-text">Angie Wolfgang is a data scientist by day and an astrostatistician by night.  Their expertise is in building data-driven models of exoplanet populations using analysis techniques that span traditional statistical methods, machine learning, and artificial intelligence.  Angie revels in asking probing questions, seeing the mostly the forest and sometimes the coolest trees, and living the sweet life of a former full-time astronomer who still does astronomy research for fun.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>    
+  </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/compass-jwst">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">The COMPASS Team; 2023</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+            filterSelection("all")
+            function filterSelection(c) {
+              var x, i;
+              x = document.getElementsByClassName("filterDiv");
+              if (c == "all") c = "";
+              // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+              for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+              }
+            }
+
+            // Show filtered elements
+            function w3AddClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                  element.className += " " + arr2[i];
+                }
+              }
+            }
+
+            // Hide elements that are not selected
+            function w3RemoveClass(element, name) {
+              var i, arr1, arr2;
+              arr1 = element.className.split(" ");
+              arr2 = name.split(" ");
+              for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                  arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+              }
+              element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current control button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+              });
+            }
+        </script>
+    </body>
+</html>
